@@ -3,7 +3,10 @@
 This repository provides **Large Address Aware (4GB) patched executables** for:
 
 - Source SDK Base 2006  
-- Source SDK Base 2007  
+- Source SDK Base 2007
+- Source SDK Base 2013 Multiplayer [previous2021]
+- Source SDK Base 2013 Multiplayer [default]
+- Source SDK Base 2013 Singleplayer [upcoming]
 
 These patched executables allow the engine to use up to **4GB of virtual address space** on 64‑bit Windows instead of being limited to 2GB.
 
@@ -11,7 +14,7 @@ These patched executables allow the engine to use up to **4GB of virtual address
 
 ## What This Does
 
-The 2006 and 2007 Source engine branches were built **without** the `/LARGEADDRESSAWARE` flag enabled.
+The 2006, 2007, and 2013 Source engine branches were built **without** the `/LARGEADDRESSAWARE` flag enabled.
 
 On 64‑bit Windows, that means:
 
@@ -29,8 +32,7 @@ This helps reduce crashes in heavily modded environments where memory usage appr
 1. Open **Steam**
 2. Go to your **Library**
 3. Locate:
-   - **Source SDK Base 2006**
-   - **Source SDK Base 2007**
+   - **Source SDK Base [whatever]**
 4. Right‑click the entry
 5. Click **Manage**
 6. Click **Browse local files**
